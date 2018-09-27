@@ -45,8 +45,7 @@ public class MainActivity extends AppCompatActivity {
 //                if (pgBar.isShowing()) {
 //                    pgBar.dismiss();
 //                }
-//                List<Movie> movies = response.body().getResults();
-//                Log.d(TAG, "Number of movies received: " + movies.size());
+
                 ModelResponse modelResponse = response.body();
                 Log.e("modelresponse:", modelResponse + "");
             }
